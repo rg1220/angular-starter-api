@@ -1,7 +1,16 @@
 var router = require('express').Router();
 
 //TODO: Move this into a database
-var people = [];
+var people = [
+  {
+    first_name: 'John',
+    last_name: 'Doe'
+  },
+  {
+    first_name: 'Jane',
+    last_name: 'Doe'
+  }
+];
 
 router.get('/', function(req, res) {
   res.json({
