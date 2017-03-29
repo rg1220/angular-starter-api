@@ -3,10 +3,12 @@ var router = require('express').Router();
 //TODO: Move this into a database
 var people = [
   {
+    id: 1,
     first_name: 'John',
     last_name: 'Doe'
   },
   {
+    id: 2,
     first_name: 'Jane',
     last_name: 'Doe'
   }
